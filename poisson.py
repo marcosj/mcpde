@@ -12,7 +12,7 @@ from fd import fd
 from mc import mc
 
 def main():
-	'''print('Experimento 1:')
+	print('Experimento 1:')
 	# Variando el tamaño de la rejilla
 	for n in range(10, 51, 10):
 		print(f'{n=}')
@@ -21,7 +21,7 @@ def main():
 	# Variando la longitud de las caminatas
 	for N in range(100, 901, 200):
 		print(f'{N=}')
-		ej4(25, N)'''
+		ej4(25, N)
 	print('Ejemplo 1:')
 	ej1(25, 250)
 	print('Ejemplo 2:')
