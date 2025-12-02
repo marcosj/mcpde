@@ -1,3 +1,5 @@
+# Python translation of https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/
+
 from random import uniform
 from math import fmod, floor, pi, cos, sin, log, sqrt
 from cmath import rect

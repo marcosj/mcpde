@@ -10,6 +10,7 @@ def fd(f, g, x, y, a, b, c, d, m, n, T=1e-6, M=100000):
 	Args:
 		f(x,y) (func): -ρ(x,y) / ε_0
 		g(x,y) (func): boundary conditions
+		x, y (list(float)): ticks
 		a, b, c, d (int): R = [a,b] x [c,d]
 		m, n (int): lattice divisions
 		T (float): tolerance
